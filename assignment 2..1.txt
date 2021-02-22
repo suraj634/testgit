@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[50],i,n,sum=0,j;
+printf("trage");
+scanf("%d",&n);
+print("enter the array");
+for (i=0;i<n;i++);
+  {
+    if (a[i]!===0)
+    { 
+      for (j=0;j<n;j++);
+      sum=a[i]+a[i+j];
+    }
+   else
+    {
+        break;
+    }
+  }
+peintf("output %d:",sum);
+getch();
+}
